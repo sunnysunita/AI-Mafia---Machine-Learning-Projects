@@ -77,3 +77,12 @@ Z = np.pad(Z, pad_width=1, mode='constant', constant_values=0)
 print(Z)
 
 # 17. What is the result of the following expression? (★☆☆)"
+# nan is (literally) not a number, you can't do arithmetic with it
+# inf is infinity - a value that is greater than any other value.
+# -inf is therefore smaller than any other value.
+print(0 * np.nan)
+print(np.nan == np.nan)
+print(np.inf > np.nan)
+print(np.nan - np.nan)
+print(np.nan in set([np.nan]))
+print(0.3 == 3 * 0.1)
