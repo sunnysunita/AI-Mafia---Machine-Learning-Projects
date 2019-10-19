@@ -5,7 +5,7 @@ import numpy as np
 print(np.__version__)
 
 # 3. Create a null vector of size 10 (★☆☆)"
-arr=np.zeros(10)
+arr = np.zeros(10)
 print(arr)
 
 # 4.  How to find the memory size of any array (★☆☆)"
@@ -15,15 +15,20 @@ print(len(arr))
 # %run `python -c "import numpy; numpy.info(numpy.add)"`
 
 # 6.  Create a null vector of size 10 but the fifth value which is 1 (★☆☆)"
-arr1=np.zeros(10)
-arr1[4]=1
+arr1 = np.zeros(10)
+arr1[4] = 1
 print(arr1)
 
 # 7.  Create a vector with values ranging from 10 to 49 (★☆☆)"
-arr2=np.arange(10,50,1)
+arr2 = np.arange(10, 50, 1)
 print(arr2)
 
 # 8.  Reverse a vector (first element becomes last) (★☆☆)"
 arr3 = np.arange(11)
+print(arr3)
 arr3 = arr3[::-1]
 print(arr3)
+
+# 9.  Create a 3x3 matrix with values ranging from 0 to 8 (★☆☆)"
+mat = np.random.randint(0,8,(3,3))
+print(mat)
