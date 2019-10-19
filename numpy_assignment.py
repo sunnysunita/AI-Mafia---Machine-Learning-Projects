@@ -14,3 +14,7 @@ print(len(arr))
 # 5.  How to get the documentation of the numpy add function from the command line?
 # %run `python -c "import numpy; numpy.info(numpy.add)"`
 
+# 6.  Create a null vector of size 10 but the fifth value which is 1 (★☆☆)"
+arr1=np.zeros(10)
+arr[4]=1
+print(arr)
