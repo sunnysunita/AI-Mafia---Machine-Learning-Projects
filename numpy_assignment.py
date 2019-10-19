@@ -60,3 +60,9 @@ print(mat3)
 mat4=np.random.random((10,10))
 print("max=",np.max(mat4))
 print("min=",np.min(mat4))
+
+# 14. Create a random vector of size 30 and find the mean value (★☆☆)"
+arr5=np.random.random(30)
+print(arr5)
+print("mean=",np.mean(arr5))
+
