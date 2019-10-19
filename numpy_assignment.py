@@ -10,3 +10,7 @@ print(arr)
 
 # 4.  How to find the memory size of any array (★☆☆)"
 print(len(arr))
+
+# 5.  How to get the documentation of the numpy add function from the command line?
+# %run `python -c "import numpy; numpy.info(numpy.add)"`
+
