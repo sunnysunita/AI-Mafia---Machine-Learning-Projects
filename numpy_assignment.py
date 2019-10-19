@@ -19,3 +19,7 @@ arr1=np.zeros(10)
 arr1[4]=1
 print(arr1)
 
+# 7.  Create a vector with values ranging from 10 to 49 (★☆☆)"
+arr2=np.arange(10,49,1)
+print(arr2)
+
