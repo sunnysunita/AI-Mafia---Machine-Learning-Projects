@@ -16,5 +16,6 @@ print(len(arr))
 
 # 6.  Create a null vector of size 10 but the fifth value which is 1 (★☆☆)"
 arr1=np.zeros(10)
-arr[4]=1
-print(arr)
+arr1[4]=1
+print(arr1)
+
