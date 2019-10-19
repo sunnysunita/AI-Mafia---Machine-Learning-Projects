@@ -56,6 +56,7 @@ print(mat2)
 mat3=np.random.random((3,3,3))
 print(mat3)
 
-
-
-
+# 13. Create a 10x10 array with random values and find the minimum and maximum values (★☆☆)"
+mat4=np.random.random((10,10))
+print("max=",np.max(mat4))
+print("min=",np.min(mat4))
