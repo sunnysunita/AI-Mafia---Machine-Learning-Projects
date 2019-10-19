@@ -67,6 +67,13 @@ print(arr5)
 print("mean=",np.mean(arr5))
 
 # 15. Create a 2d array with 1 on the border and 0 inside (★☆☆)"
-Z = np.ones((10,10))
-Z[1:-1,1:-1] = 0
+Z = np.ones((5,5))
+Z[1:4,1:4] = 0
 print(Z)
+
+# 16. How to add a border (filled with 0's) around an existing array? (★☆☆)"
+Z = np.ones((5,5))
+Z = np.pad(Z, pad_width=1, mode='constant', constant_values=0)
+print(Z)
+
+# 17. What is the result of the following expression? (★☆☆)"
