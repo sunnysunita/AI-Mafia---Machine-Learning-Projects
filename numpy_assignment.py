@@ -22,6 +22,8 @@ print(arr1)
 # 7.  Create a vector with values ranging from 10 to 49 (★☆☆)"
 arr2 = np.arange(10, 50, 1)
 print(arr2)
+#arr21=np.random.randint(10,50,10)
+#print(arr21)
 
 # 8.  Reverse a vector (first element becomes last) (★☆☆)"
 arr3 = np.arange(11)
@@ -32,3 +34,17 @@ print(arr3)
 # 9.  Create a 3x3 matrix with values ranging from 0 to 8 (★☆☆)"
 mat = np.random.randint(0,8,(3,3))
 print(mat)
+#mat1=np.arange(0,9,1).reshape(3,3)
+#print(mat1)
+
+# 10. Find indices of non-zero elements from \\[1,2,0,0,4,0\\] (★☆☆)"
+list=[1,2,0,0,4,0]
+arr4=np.array(list)
+print(arr4)
+for i in range(0,len(arr4)+1):
+    if arr4[i]!=0:
+        print(i)
+
+
+
+
