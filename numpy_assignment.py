@@ -52,6 +52,10 @@ for i in range(0,len(arr4)):
 mat2=np.eye(3,3)
 print(mat2)
 
+# 12. Create a 3x3x3 array with random values (★☆☆)"
+mat3=np.random.random((3,3,3))
+print(mat3)
+
 
 
 
