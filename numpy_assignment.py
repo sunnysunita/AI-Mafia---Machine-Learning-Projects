@@ -41,9 +41,16 @@ print(mat)
 list=[1,2,0,0,4,0]
 arr4=np.array(list)
 print(arr4)
-for i in range(0,len(arr4)+1):
+for i in range(0,len(arr4)):
     if arr4[i]!=0:
         print(i)
+
+#nz = np.nonzero([1,2,0,0,4,0])
+#print(nz)
+
+# 11. Create a 3x3 identity matrix (★☆☆)"
+mat2=np.eye(3,3)
+print(mat2)
 
 
 
