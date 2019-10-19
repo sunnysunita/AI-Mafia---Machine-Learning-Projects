@@ -20,6 +20,10 @@ arr1[4]=1
 print(arr1)
 
 # 7.  Create a vector with values ranging from 10 to 49 (★☆☆)"
-arr2=np.arange(10,49,1)
+arr2=np.arange(10,50,1)
 print(arr2)
 
+# 8.  Reverse a vector (first element becomes last) (★☆☆)"
+arr3 = np.arange(11)
+arr3 = arr3[::-1]
+print(arr3)
