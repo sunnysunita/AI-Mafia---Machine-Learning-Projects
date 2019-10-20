@@ -101,3 +101,7 @@ print(mat6)
 # 20. Consider a (6,7,8) shape array, what is the index (x,y,z) of the 100th element?"
 print(np.unravel_index(99,(6,7,8)))
 
+# 21. Create a checkerboard 8x8 matrix using the tile function (★☆☆)"
+arr6=np.array([[0,1],
+               [1,0]])
+print(np.tile(arr6,(4,4)))
