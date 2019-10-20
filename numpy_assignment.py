@@ -181,3 +181,16 @@ today = np.datetime64('today', 'D')
 tomorrow = np.datetime64('today', 'D') + np.timedelta64(1, 'D')
 print(tomorrow)
 
+# 34. How to get all the dates corresponding to the month of July 2016? (★★☆)"
+Z = np.arange('2016-07', '2016-08', dtype='datetime64[D]')
+print(Z)
+
+# 35. How to compute ((A+B)\\*(-A/2)) in place (without copy)? (★★☆)"A = np.ones(3)*1
+A = np.ones(3)*1
+B = np.ones(3)*2
+C = np.ones(3)*3
+np.add(A,B,out=B)
+np.divide(A,2,out=A)
+np.negative(A,out=A)
+np.multiply(A,B,out=A)
+print(A)
