@@ -155,3 +155,10 @@ print(mat10)
 # mat10=np.random.uniform(-10,+10,10).astype(int)
 # print(mat10.astype(float))
 print (np.copysign(np.ceil(np.abs(mat10)), mat10))
+
+# 30. How to find common values between two arrays? (★☆☆)"
+arr8=np.arange(2,10,1)
+arr9=np.arange(5,13,1)
+print(arr8)
+print(arr9)
+print(np.intersect1d(arr8,arr9))
