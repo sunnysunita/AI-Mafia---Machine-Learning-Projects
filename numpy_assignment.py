@@ -123,3 +123,10 @@ print(color)
 mat9=np.arange(0,15,1).reshape(5,3)
 mat8=np.arange(0,6,1).reshape(3,2)
 print(mat9@mat8)
+
+# 25. Given a 1D array, negate all elements which are between 3 and 8, in place. (★☆☆)"
+arr7=np.arange(0,11,1).astype(int)
+print(arr7)
+cond=np.logical_and(arr7>=3,arr7<=8)
+arr7=np.select([~cond,cond],[arr7,-arr7])
+print(arr7)
