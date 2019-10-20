@@ -162,3 +162,9 @@ arr9=np.arange(5,13,1)
 print(arr8)
 print(arr9)
 print(np.intersect1d(arr8,arr9))
+
+# 31. How to ignore all numpy warnings (not recommended)? (★☆☆)"
+defaults = np.seterr(all="ignore")
+tp = np.ones(1) / 0
+# Back to safety
+_ = np.seterr(**defaults)
