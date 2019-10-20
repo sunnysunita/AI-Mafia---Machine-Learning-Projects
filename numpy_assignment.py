@@ -98,3 +98,6 @@ mat6[1::2,::2] = 1
 mat6[::2,1::2] = 1
 print(mat6)
 
+# 20. Consider a (6,7,8) shape array, what is the index (x,y,z) of the 100th element?"
+print(np.unravel_index(99,(6,7,8)))
+
