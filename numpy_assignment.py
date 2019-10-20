@@ -86,3 +86,7 @@ print(np.inf > np.nan)
 print(np.nan - np.nan)
 print(np.nan in set([np.nan]))
 print(0.3 == 3 * 0.1)
+
+# 18. Create a 5x5 matrix with values 1,2,3,4 just below the diagonal (★☆☆)"
+mat5 = np.diag(1+np.arange(4), k=-1)
+print(mat5)
