@@ -118,3 +118,8 @@ color = np.dtype([("r", np.ubyte, (1,)),
                   ("b", np.ubyte, (1,)),
                   ("a", np.ubyte, (1,))])
 print(color)
+
+# 24. Multiply a 5x3 matrix by a 3x2 matrix (real matrix product) (★☆☆)"
+mat9=np.arange(0,15,1).reshape(5,3)
+mat8=np.arange(0,6,1).reshape(3,2)
+print(mat9@mat8)
