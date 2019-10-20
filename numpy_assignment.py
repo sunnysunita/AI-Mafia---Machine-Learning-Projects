@@ -90,3 +90,11 @@ print(0.3 == 3 * 0.1)
 # 18. Create a 5x5 matrix with values 1,2,3,4 just below the diagonal (★☆☆)"
 mat5 = np.diag(1+np.arange(4), k=-1)
 print(mat5)
+
+# 19. Create a 8x8 matrix and fill it with a checkerboard pattern (★☆☆)"
+mat6=np.zeros((8,8))
+print(mat6)
+mat6[1::2,::2] = 1
+mat6[::2,1::2] = 1
+print(mat6)
+
