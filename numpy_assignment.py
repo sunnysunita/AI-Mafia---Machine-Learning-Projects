@@ -105,3 +105,10 @@ print(np.unravel_index(99,(6,7,8)))
 arr6=np.array([[0,1],
                [1,0]])
 print(np.tile(arr6,(4,4)))
+
+# 22. Normalize a 5x5 random matrix (★☆☆)"
+mat7=np.random.random((5,5))
+mat8=((mat7-np.mean(mat7))/np.std(mat7))
+#print(mat7)
+print(mat8)
+
