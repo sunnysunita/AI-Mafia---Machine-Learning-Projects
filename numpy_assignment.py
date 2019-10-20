@@ -130,3 +130,9 @@ print(arr7)
 cond=np.logical_and(arr7>=3,arr7<=8)
 arr7=np.select([~cond,cond],[arr7,-arr7])
 print(arr7)
+
+# 26. What is the output of the following script? (★☆☆)"
+print(sum(range(5),-1))
+from numpy import *
+print(sum(range(5),-1))
+
