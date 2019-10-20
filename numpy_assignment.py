@@ -145,5 +145,13 @@ print(sum(range(5),-1))
 #  Z<Z>Z
 
 # 28. What are the result of the following expressions?"
+# print(np.array(0) / np.array(0))
+# print(np.array(0) // np.array(0))
+# print(np.array([np.nan]).astype(int).astype(float))
 
-
+# 29. How to round away from zero a float array ? (★☆☆)"
+mat10=np.random.uniform(-10,+10,10)
+print(mat10)
+# mat10=np.random.uniform(-10,+10,10).astype(int)
+# print(mat10.astype(float))
+print (np.copysign(np.ceil(np.abs(mat10)), mat10))
